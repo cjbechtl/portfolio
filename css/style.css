@@ -131,13 +131,13 @@ p { font-size: var(--fs-body)}
 /* header */
 
 header {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     padding: 1em;
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .nav {
@@ -394,6 +394,7 @@ header {
     transition: 
         transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
         opacity 250ms linear;
+    object-fit: cover;
 }
 
 .portfolio__item:focus {
